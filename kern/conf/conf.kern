@@ -379,6 +379,10 @@ file      vfs/devnull.c
 file      syscall/loadelf.c
 file      syscall/runprogram.c
 file      syscall/time_syscalls.c
+#file added for hello.c and printchar.c and exit.c function for ASST2 - Lamine
+file 	  syscall/hello.c
+file	  syscall/printchar.c
+file 	  syscall/exit.c
 
 #
 # Startup and initialization

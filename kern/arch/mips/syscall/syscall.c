@@ -109,6 +109,20 @@ syscall(struct trapframe *tf)
 				 (userptr_t)tf->tf_a1);
 		break;
 
+	/* Case added for hello + printchar + _exit functions for ASST2 - Lamine */
+
+	    case SYS_hello:
+		err = sys_hello();
+		break;
+	
+	    case SYS_printchar:
+		err = sys_printchar((char)tf->tf_a0);
+		break;
+
+	    case SYS__exit:
+		err = sys__exit((int)tf->tf_a0);
+		break;
+
 	    /* Add stuff here */
 
 	    default:
