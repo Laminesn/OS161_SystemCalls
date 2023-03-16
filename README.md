@@ -14,6 +14,10 @@ Follow the instructions to complete the assignment.
 
 Include your screenshots here ... 
 
+![OS161 system calls 1](https://user-images.githubusercontent.com/108601032/225510923-389fa6eb-4ebf-4d8d-9346-7b2a44149ce1.PNG)
+
+![OS161 system calls 2](https://user-images.githubusercontent.com/108601032/225511030-cd2448ab-6c12-4c95-abd5-6b26c8af6d5f.PNG)
+
 
 
 
